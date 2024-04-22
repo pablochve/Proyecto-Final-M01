@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(112, 126, 130);
+}
+
+.custom-card {
+transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.custom-card:hover {
+transform: translateY(-10px);
+box-shadow: 0 8px 4px rgb(184, 130, 130);
+}
+
+.container-fluid {
+    background-color: rgb(112, 126, 130);
+}
+
+.progress-bar {
+    background-color: blueviolet;
+}
+
+.nav{
+    color: white;
+}

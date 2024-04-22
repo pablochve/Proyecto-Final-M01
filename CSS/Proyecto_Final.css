@@ -1,0 +1,97 @@
+body{
+   background-image: url(https://images.unsplash.com/photo-1496450681664-3df85efbd29f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+   background-size: cover;
+}
+
+.navbar-brand{
+    font-family: "Libre Baskerville", serif;
+}
+
+.navbar-expand-lg{
+    background-color: rgb(245, 191, 229); 
+}
+
+.nav-item:hover{
+    background-color: rgb(201, 156, 187);
+    color: rgb(245, 191, 229);
+    border-radius: 5px;
+}
+
+.libre-baskerville-bold {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .parrafo{
+    font-size: 25px;
+    text-align: justify;
+    width: 500px;
+    position: relative;
+    left: 30px;
+    top: 50px;
+    font-family: "Libre Baskerville";
+    color: black;
+}
+
+.campo{
+   
+    font-family: "Libre Baskerville"; 
+    position: relative;
+    left: 20px;
+    top: 50px;
+    border: none; 
+    cursor: pointer; 
+    display: inline-flex;
+}
+
+
+.campo button:hover{
+    background-color: rgb(201, 156, 187);
+    color: rgb(245, 191, 229);
+}
+
+.bi-instagram{
+    position: relative;
+    right: 30px;
+    top: 50px;
+    float: right;
+}  
+.bi-envelope-fill{
+    position: relative;
+    right: 70px;
+    top: 50px;
+    float: right;  
+}
+.bi-facebook{
+    position: relative;
+    right: 110px;
+    top: 50px;
+    float: right;
+}
+
+.bi-facebook:hover{
+    background-color: rgb(201, 156, 187);
+    color: rgb(245, 191, 229);
+    border-radius: 15px;  
+}
+
+.bi-envelope-fill:hover{
+    background-color: rgb(201, 156, 187);
+    color: rgb(245, 191, 229);
+    border-radius: 15px;  
+}
+
+.bi-instagram:hover{
+    background-color: rgb(201, 156, 187);
+    color: rgb(245, 191, 229);
+    border-radius: 15px;  
+}
+
+@media(max-width:600px){
+    .proyecto{
+        width: 95%;
+        max-width: none;
+    }
+}
+

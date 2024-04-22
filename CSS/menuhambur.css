@@ -1,0 +1,27 @@
+.menu-navegacion{
+    display: block;
+}
+-contenedor-imagen{
+    width: 100%;
+    height: 0;
+    padding-top: 56.25%;
+    position: relative;
+}
+
+.contenedor-imagen img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.elemento-visible-movil{
+    display: none;
+}
+
+.elemento-visible-escritorio{
+    display: block;
+}
+
